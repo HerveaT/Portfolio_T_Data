@@ -1,5 +1,9 @@
-title: Hervea T
+title: "Hervea T"
+description: "Data Analyst"
 logo: /assets/img/headshot_circle.png
-description:Data Analyst
 show_downloads: true
 theme: jekyll-theme-minimal
+
+# If this is a *project* site (repo ≠ herveat.github.io), add:
+url: "https://herveat.github.io"
+baseurl: "/Portfolio_T_Data"
