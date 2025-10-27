@@ -116,25 +116,15 @@ The results highlight clear evidence of warming and pronounced climate seasonali
 ### Visual Communication
 
 <img width="986" height="374" alt="Temperature trends in Algiers_Plot" src="https://github.com/user-attachments/assets/e527a400-cfc5-4d9a-bdaf-7ed31ceecc21" />
-
-<img width="708" height="374" alt="Representation of Algiers' density function" src="https://github.com/user-attachments/assets/82f107c0-2cdc-4f2b-9b27-166fdbaec491" />
-
-<img width="704" height="374" alt="Temperature trends in Algiers_Histoplot" src="https://github.com/user-attachments/assets/936ad776-9356-4443-bf74-58e65182b0da" />
-
-<img width="986" height="374" alt="Temperature and Fitted Trend" src="https://github.com/user-attachments/assets/c18951c9-5fda-4412-8efc-71902773a72e" />
-
-<img width="678" height="374" alt="Seasonal Coefficients - Algiers" src="https://github.com/user-attachments/assets/5101585e-7206-4d1e-9da5-d2921a2de33f" />
+<img width="704" height="374" alt="Temperature trends in Algiers_Histoplot" src="https://github.com/user-attachments/assets/2d8cacb8-0d0a-4afa-b4a4-92968ce842e1" />
+<img width="986" height="374" alt="Temperature and Fitted Trend" src="https://github.com/user-attachments/assets/d4ced20c-eb57-4545-894d-cab5a77032b1" />
+<img width="678" height="374" alt="Seasonal Coefficients - Algiers" src="https://github.com/user-attachments/assets/922bd895-fc60-4d90-be7a-fe3b98690354" />
 
 ### Challenges & Limitations
 
 - Trend regression captured only a fraction of variability due to climate complexity.
 - Large condition number and low Durbin-Watson suggest autocorrelation and multicollinearity issues, requiring more advanced modeling.
 - Recommends future use of additional covariates, more granular meteorological data, and robust climate models for deeper insights.
-  
-### References:
-
-1. [RPubs](https://rpubs.com/maxlamcoco/portfolio-EDA)
-2. 
 
 
 
