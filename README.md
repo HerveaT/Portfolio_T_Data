@@ -45,6 +45,15 @@ The results highlight clear evidence of warming and pronounced climate seasonali
 
 ### Visual Communication
 
+<img width="986" height="374" alt="Temperature trends in Algiers_Plot" src="https://github.com/user-attachments/assets/e527a400-cfc5-4d9a-bdaf-7ed31ceecc21" />
+
+<img width="708" height="374" alt="Representation of Algiers' density function" src="https://github.com/user-attachments/assets/82f107c0-2cdc-4f2b-9b27-166fdbaec491" />
+
+<img width="704" height="374" alt="Temperature trends in Algiers_Histoplot" src="https://github.com/user-attachments/assets/936ad776-9356-4443-bf74-58e65182b0da" />
+
+<img width="986" height="374" alt="Temperature and Fitted Trend" src="https://github.com/user-attachments/assets/c18951c9-5fda-4412-8efc-71902773a72e" />
+
+<img width="678" height="374" alt="Seasonal Coefficients - Algiers" src="https://github.com/user-attachments/assets/5101585e-7206-4d1e-9da5-d2921a2de33f" />
 
 ### Challenges & Limitations
 
