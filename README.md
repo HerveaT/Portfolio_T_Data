@@ -5,21 +5,20 @@
 Analyze decades of temperature records in Algiers to detect central climate tendencies, seasonal variations, and significant long-term trends linked to climate change. Emphasize the connection between temperature dynamics and local socio-economic impacts, supporting decision-making for urban sustainability.
 
 ### Data Description
-Used over 27 years of daily meteorological data (average, minimum, and maximum values), sourced from trusted climate repositories and validated for consistency.
+Used over 44 years of daily meteorological data (average, maximum, and minimum values), sourced from trusted climate repositories and validated for consistency. The time series covers January 1980 to November 2023, totaling 16,012 observations
 
 ### Tools
 
-- Excel - Data Cleaning
-- Python - Data analysis and modeling
+- Excel → Initial data cleaning, inspection, and validation
+- Python (Pandas, Statsmodels, NumPy)-Time series analysis, regression modeling, and visualization
 
 ### Data Cleaning/Preparation
 
 In the initial data preparation phase, we performed the following tasks:
 
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
-4. Generating dummy variables.
+1. Imported, inspected, and formatted data.
+2. Managed missing values in temperature columns.
+3. Created monthly dummy variables for seasonal analysis.
 
 ### Exploratory Data Analysis
 
@@ -29,30 +28,30 @@ EDA involved exploring climate (temperature) data to answer key questions, such 
 - Are there distinct seasonal patterns or cycles in the climate data?
 - Do we observe any anomalies, outliers, or notable shifts in temperature across decades?
 
-
 ### Methods & Approach
 
-1. Applied statistical trend modeling (linear regression, seasonal fixed effects), detecting both long-term warming and monthly cycles.
-2. Used tests for autocorrelation and heteroscedasticity (Newey-West correction) to ensure robustness.
-3. Presented descriptive statistics, time-series analysis, and visualizations (density plots, monthly trends).
-
+1. Applied OLS linear trend regression to estimate long-term warming patterns.
+2. Used HAC (heteroscedasticity- and autocorrelation-consistent) standard errors for robust inference.
+3. Modeled seasonality via month-based dummy variables in a regression framework.
+4. Presented descriptive statistics, distribution plots, and time-series visualizations.
 
 ### Key Findings
 
-- Demonstrated a statistically significant upward trend in average temperature, consistent with global warming.
-- Identified marked seasonal cycles, with clear bimodal distribution separating hot summers and cool winters.
-- Quantified the average warming rate and its economic/environmental consequences for the city, referencing global IPCC and World Bank reports for context.
+The analysis reveals a statistically significant, upward trend in daily average temperatures in Algiers, with a regression coefficient of 0.0002 and a p-value of 0.019, confirming a persistent warming pattern over the studied period. Seasonal modeling highlighted strong, consistent monthly effects, where temperatures peaked in July and August and were lowest in winter, as shown by a high R² of 0.83. While the trend regression is aligned with global warming findings, it accounted for only a small fraction of total temperature variability (R² = 0.006), indicating that additional climatic and environmental factors substantially influence daily temperatures. Rigorous model diagnostics further signaled autocorrelation and possible multicollinearity, so results should be interpreted with caution and considered alongside broader climate dynamics.
 
 ### Impact & Business Value
 
-Findings highlight urgent risks for local infrastructure, public health, and resource management. Results inform policy adaptation, urban planning, and climate resilience strategies.
+The results highlight clear evidence of warming and pronounced climate seasonality in Algiers, with implications for public health, urban infrastructure planning, and resource management. Insights are applicable for policy adaptation, climate resilience, and long-term sustainability.
 
 ### Visual Communication
 
 
 ### Challenges & Limitations
 
-
+- Trend regression captured only a fraction of variability due to climate complexity.
+- Large condition number and low Durbin-Watson suggest autocorrelation and multicollinearity issues, requiring more advanced modeling.
+- Recommends future use of additional covariates, more granular meteorological data, and robust climate models for deeper insights.
+  
 ### References:
 
 1. [RPubs](https://rpubs.com/maxlamcoco/portfolio-EDA)
