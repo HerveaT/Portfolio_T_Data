@@ -1,4 +1,4 @@
-# Climate Porject - Evolution of Temperature in Algiers: Climate Trend Analysis
+# Climate Project: Evolution of Temperature in Algiers - Climate Trend Analysis
 
 ### Objective
 
