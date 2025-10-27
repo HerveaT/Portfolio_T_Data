@@ -9,7 +9,7 @@ Used over 44 years of daily meteorological data (average, maximum, and minimum v
 
 ### Tools
 
-- Excel → Initial data cleaning, inspection, and validation
+- Excel-Initial data cleaning, inspection, and validation
 - Python (Pandas, Statsmodels, NumPy)-Time series analysis, regression modeling, and visualization
 
 ### Data Cleaning/Preparation
